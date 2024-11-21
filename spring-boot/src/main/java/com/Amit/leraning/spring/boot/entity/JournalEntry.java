@@ -3,12 +3,16 @@ package com.Amit.leraning.spring.boot.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import jakarta.annotation.sql.DataSourceDefinition;
+
 import java.util.Arrays;
 @Document(collation = "journal")
+
 public class JournalEntry {
     @Id
     private Long id;
     private String name;
+    private Long ja;
 
     public Long getId() {
         return id;

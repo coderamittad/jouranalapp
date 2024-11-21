@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import java.util.List;;
+import java.util.List;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
